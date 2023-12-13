@@ -1,0 +1,118 @@
+{
+    "description": "swinUNetr TB ds256",
+    "labels": {
+        "0": "background",
+        "1": "bone",
+        "2": "malleus",
+        "3": "incus",
+        "4": "stapes",
+        "5": "bony_labyr",
+        "6": "IAC",
+        "7": "sup_vestib_n",
+        "8": "inf_vestib_n",
+        "9": "cochlear_n",
+        "10": "facial_n",
+        "11": "chorda_tymp_n",
+        "12": "ICA",
+        "13": "sinus_dura",
+        "14": "vestib_aqueduct",
+        "15": "mandible",
+        "16": "EAC"
+    },
+    "licence": "yt",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "tb_hop",
+    "numTest": 20,
+    "numTraining": 80,
+    "reference": "Hopkins",
+    "release": "1.0 12/10/23",
+    "tensorImageSize": "3D",
+    "test": [
+        {
+            "image": "imagesTs/LT_138_ds256.nii.gz",
+            "label": "labelsTs/Segmentation_LT_138_ds256.nii.gz"
+        },
+        {
+            "image": "imagesTs/LT_146_ds256.nii.gz",
+            "label": "labelsTs/Segmentation_LT_146_ds256.nii.gz"
+        }
+    ],
+    "training": [
+        {
+            "image": "images/RT_147_ds256.nii.gz",
+            "label": "labels/Segmentation_RT_147_ds256.nii.gz"
+        },
+        {
+            "image": "images/LT_147_ds256.nii.gz",
+            "label": "labels/Segmentation_LT_147_ds256.nii.gz"
+        },
+        {
+            "image": "images/RT_143_ds256.nii.gz",
+            "label": "labels/Segmentation_RT_143_ds256.nii.gz"
+        },
+        {
+            "image": "images/LT_171_ds256.nii.gz",
+            "label": "labels/Segmentation_LT_171_ds256.nii.gz"
+        },
+        {
+            "image": "images/LT_152_ds256.nii.gz",
+            "label": "labels/Segmentation_LT_152_ds256.nii.gz"
+        },
+        {
+            "image": "images/LT_143_ds256.nii.gz",
+            "label": "labels/Segmentation_LT_143_ds256.nii.gz"
+        },
+        {
+            "image": "images/RT_144_ds256.nii.gz",
+            "label": "labels/Segmentation_RT_144_ds256.nii.gz"
+        },
+        {
+            "image": "images/LT_148_ds256.nii.gz",
+            "label": "labels/Segmentation_LT_148_ds256.nii.gz"
+        },
+        {
+            "image": "images/RT_152_ds256.nii.gz",
+            "label": "labels/Segmentation_RT_152_ds256.nii.gz"
+        },
+        {
+            "image": "images/RT_146_ds256.nii.gz",
+            "label": "labels/Segmentation_RT_146_ds256.nii.gz"
+        },
+        {
+            "image": "images/LT_144_ds256.nii.gz",
+            "label": "labels/Segmentation_LT_144_ds256.nii.gz"
+        },
+        {
+            "image": "images/LT_169_ds256.nii.gz",
+            "label": "labels/Segmentation_LT_169_ds256.nii.gz"
+        },
+        {
+            "image": "images/LT_145_ds256.nii.gz",
+            "label": "labels/Segmentation_LT_145_ds256.nii.gz"
+        },
+        {
+            "image": "images/RT_150_ds256.nii.gz",
+            "label": "labels/Segmentation_RT_150_ds256.nii.gz"
+        },
+        {
+            "image": "images/LT_150_ds256.nii.gz",
+            "label": "labels/Segmentation_LT_150_ds256.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "images/LT_151_ds256.nii.gz",
+            "label": "labels/Segmentation_LT_151_ds256.nii.gz"
+        },
+        {
+            "image": "images/RT_138_ds256.nii.gz",
+            "label": "labels/Segmentation_RT_138_ds256.nii.gz"
+        },
+        {
+            "image": "images/RT_153_ds256.nii.gz",
+            "label": "labels/Segmentation_RT_153_ds256.nii.gz"
+        }
+    ]
+}
